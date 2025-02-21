@@ -1,0 +1,21 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=0
+multicycle=0
+[COMPILESTATUS|.\src\Multi.v]
+FileTimeLow=2298176094
+FileTimeHigh=31157443
+Status=Warning
+[General]
+CurrentVersion=103
+[CACHEDOC|Aldec.Project.Generic.7|.\multicycle\multicycle.adf|]
+Path=/MultiCycleProcessor_tb
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|.\multicycle\src/Multi.v|]
+CurrentLine=117
+CurrentColumn=75
+Bookmarks=-1
+BookmarksLength=3
+ZoomFactor=0
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAADAAAA/////////////////////80AAACZAAAAfwcAAFwCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAAAAAAA=="
+[Gui config]
+RunFor=100 ns

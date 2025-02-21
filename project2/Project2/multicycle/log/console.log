@@ -1,0 +1,66 @@
+asim -O5 +access +r +m+MultiCycleProcessor_tb MultiCycleProcessor_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Other model "c63d90145fb751d2457bd5d79e030cb6" is being simulated using library "E:\University\Ark\project2\Project2\multicycle\multicycle\". New model will be generated.
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.2 [s]
+# SLP: 0 primitives and 5 (100.00%) other processes in SLP
+# SLP: 108 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4714 kB (elbread=427 elab2=4153 kernel=134 sdf=0)
+# ASDB: Error: remove: "E:\University\Ark\project2\Project2\multicycle\src\wave.asdbw\current": Access is denied. 
+# VSIM: Error: Fatal error occurred during simulation.
+asim -O5 +access +r +m+MultiCycleProcessor_tb MultiCycleProcessor_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work multicycle $dsn/src/Multi.v
+# Warning: VCP2597 Multi.v : (23, 1): Some unconnected ports remain at instance: uut. Module MultiCycleProcessor has unconnected  port(s) : Total_number_of_executed_instructions, Total_number_of_load_instructions, Total_number_of_store_instructions, Total_number_of_ALU_instructions, Total_number_of_control_instructions.
+# Unit top modules: MultiCycleProcessor_tb.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 5 (100.00%) other processes in SLP
+# SLP: 108 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4715 kB (elbread=427 elab2=4153 kernel=134 sdf=0)
+# ASDB: Error: remove: "E:\University\Ark\project2\Project2\multicycle\src\wave.asdbw\current": Access is denied. 
+# VSIM: Error: Fatal error occurred during simulation.

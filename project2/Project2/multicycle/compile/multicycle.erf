@@ -1,0 +1,1 @@
+WARNING VCP2597 "Some unconnected ports remain at instance: uut. Module MultiCycleProcessor has unconnected  port(s) : Total_number_of_executed_instructions, Total_number_of_load_instructions, Total_number_of_store_instructions, Total_number_of_ALU_instructions, Total_number_of_control_instructions." "E:/University/Ark/project2/Project2/multicycle/src/Multi.v" 23 1

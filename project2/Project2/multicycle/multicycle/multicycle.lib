@@ -1,0 +1,39 @@
+timestamp=1737546503848
+
+[~A]
+D:/Google_Stream_Drive/Other computers/My Computer/University/Ark/project2/Project2/multicycle/src/Multi.v=0*118480*123587
+E:/University/Ark/project2/Project2/multicycle/src/Multi.v=0*159288*164443
+LastVerilogToplevel=MultiCycleProcessor_tb
+ModifyID=24
+Version=74
+d:/My_Designs/Project2/multicycle/src/Multi.v=0*1182*6132
+
+[~MFT]
+0=7|0multicycle.mgf|164443|119766
+1=6|1multicycle.mgf|362101|358386
+3=12|3multicycle.mgf|527446|515064
+
+[$root]
+A/$root=22|||1*358386
+BinW64/$root=3*515064
+SLP=3*515179
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c921679475939cc55a4a5f5c8e3aa888005c8
+
+[MultiCycleProcessor]
+A/MultiCycleProcessor=22|../src/Multi.v|79|1*362101
+BinW64/MultiCycleProcessor=3*518097
+R=../src/Multi.v|79
+SLP=3*527446
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|9b7b445d10137047f7ebe0a4a0a782aed22a2b455fcdb7ca81e6b8ce00d75b7aacd744f3482f5972f9b0d73f4a600dc1
+
+[MultiCycleProcessor_tb]
+A/MultiCycleProcessor_tb=22|../src/Multi.v|8|1*358776
+BinW64/MultiCycleProcessor_tb=3*515247
+R=../src/Multi.v|8
+SLP=3*517035
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|9b7b445d10137047f7ebe0a4a0a782aee301571b1b7675a2442967336861d0adabd66ce8a76e3aa1bd2b50112d109e40
+
+[~U]
+$root=12|0*158106|
+MultiCycleProcessor=12|0*158498|
+MultiCycleProcessor_tb=12|0*158304||0x10
